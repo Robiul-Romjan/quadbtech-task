@@ -19,7 +19,7 @@ const Home = () => {
             <div className="row">
                 {
                     movies?.map(movie =>
-                        <div key={movie.show.id} className="col-lg-4 mb-4">
+                        <div key={movie.show.id} className="col-lg-4 col-md-6 mb-4">
                             <Card bg="success">
                                 <Card.Img variant="top" style={{ height: "500px" }} src={movie.show.image.original} />
                                 <Card.Body>
